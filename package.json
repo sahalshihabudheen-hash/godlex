@@ -4,11 +4,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm --filter @workspace/godlex-smp run build && cp -rv artifacts/godlex-smp/dist/public/* .",
+    "build": "pnpm --filter @workspace/godlex-smp run build",
     "typecheck:libs": "true",
     "typecheck": "true"
   },
-  "private": true,
+  "packageManager": "pnpm@9.15.4",
   "devDependencies": {
     "typescript": "~5.9.2",
     "prettier": "^3.8.1"
