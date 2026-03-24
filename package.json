@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
-    "build": "pnpm --filter @workspace/godlex-smp run build",
+    "build": "pnpm --filter @workspace/godlex-smp run build && mkdir -p dist && cp -rv artifacts/godlex-smp/dist/public/* dist/",
     "typecheck:libs": "true",
     "typecheck": "true"
   },
