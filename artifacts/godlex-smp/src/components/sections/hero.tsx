@@ -43,6 +43,19 @@ export function Hero() {
           <span className="inline-block py-1 px-3 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-primary-foreground text-sm font-medium tracking-wide mb-6">
             Season 1 is LIVE
           </span>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1, delay: 0.2 }}
+            className="mb-8"
+          >
+            <img 
+              src="/favicon.gif" 
+              alt="Godlex SMP Logo" 
+              className="w-24 h-24 sm:w-32 sm:h-32 mx-auto rounded-3xl shadow-[0_0_50px_rgba(124,58,237,0.5)] border border-white/10 object-cover" 
+            />
+          </motion.div>
           
           <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-display font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white via-white/90 to-white/60 drop-shadow-sm mb-4">
             GODLEX SMP

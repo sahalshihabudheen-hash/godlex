@@ -34,9 +34,11 @@ export function Navbar() {
           
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-2">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20">
-              <Gamepad2 className="w-6 h-6 text-white" />
-            </div>
+            <img 
+              src="/favicon.gif" 
+              alt="Godlex Logo" 
+              className="w-10 h-10 rounded-xl shadow-lg shadow-primary/20 object-cover" 
+            />
             <span className="font-display font-bold text-xl tracking-tight text-white">
               GODLEX<span className="text-primary">SMP</span>
             </span>
