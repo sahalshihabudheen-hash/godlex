@@ -1,3 +1,7 @@
+/**
+ * J.A.R.V.I.S. Protocol Internal: Environmental Variable Resilience Layer
+ * Status: Port & BasePath Checks Virtualized | Optimized for Vercel
+ */
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
