@@ -1,5 +1,0 @@
-{
-  "buildCommand": "pnpm --filter @workspace/godlex-smp run build",
-  "outputDirectory": "artifacts/godlex-smp/dist/public",
-  "framework": "vite"
-}
