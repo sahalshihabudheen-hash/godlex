@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm --filter @workspace/godlex-smp run build && mkdir -p dist && cp -rv artifacts/godlex-smp/dist/public/* dist/",
+    "build": "pnpm --filter @workspace/godlex-smp run build && cp -rv artifacts/godlex-smp/dist/public/* .",
     "typecheck:libs": "true",
     "typecheck": "true"
   },
